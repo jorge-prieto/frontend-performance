@@ -1,0 +1,9 @@
+applications:
+  - name: elcolombiano
+    environment: production
+    iterations: 3
+    connectivity: 3gfast
+    mobile: false
+    urlToTest:
+      - https://www.elcolombiano.com/
+      - https://www.elcolombiano.com/inicio-sesion
